@@ -71,7 +71,7 @@
 #  include <gtk/gtkradiomenuitem.h>
 #  include <gtkspell/gtkspell.h>
 #if USE_ENCHANT
-#  include <enchant/enchant.h>
+#  include <enchant-2/enchant.h>
 #else
 #  include <aspell.h>
 #endif

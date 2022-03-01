@@ -16307,9 +16307,9 @@ $as_echo "yes" >&6; }
 
 $as_echo "#define USE_ENCHANT 1" >>confdefs.h
 
-			LIBS="$LIBS `$PKG_CONFIG --libs enchant`"
+			LIBS="$LIBS `$PKG_CONFIG --libs enchant-2`"
 
-						if $PKG_CONFIG --atleast-version 1.4.2 enchant ; then
+						if $PKG_CONFIG --atleast-version 1.4.2 enchant-2 ; then
 				CFLAGS="$CFLAGS `$PKG_CONFIG --cflags dbus-glib-1`"
 				LIBS="$LIBS `$PKG_CONFIG --libs dbus-glib-1`"
 			fi
